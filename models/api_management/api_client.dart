@@ -29,9 +29,7 @@ class ApiClient extends BaseClient1 {
     required this.baseUrl,
   }) : super(log: log);
 
-  // final String server_url = "https://mportal.ehya.com.pk:5443/";
-  // final String server_url = "https://mportal.ehya.com.pk:5443/";
-  // final String server_url = "https://test.hibalogics.com/";
+
   final String schoolVisitAPI = "api/visit_school";
 
   Future<SchoolsReponse> getSchools() async {
